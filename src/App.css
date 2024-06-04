@@ -1,20 +1,29 @@
 #root {
-    max-width: 1280px;
+    max-width: 80em;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+
+     /* violet */
+     --primary-color: 111, 76, 255;
+    
+     /* white */
+     --text-color: 256, 256, 256;
 }
 
+   
+
+
 .container {
-    max-width: 400px;
+    max-width: 25em;
     margin: 0 auto;
     padding: 20px;
     background-color: #3e3939;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.1);
+    border-radius: 0.3em;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #0e9b3b;
 }
